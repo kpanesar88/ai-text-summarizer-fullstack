@@ -1,0 +1,338 @@
+/* Import Boxicons */
+@import url('https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css');
+
+/* General reset for padding and margins */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Base styles for body */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: radial-gradient(circle at 10% 20%, #b700ff 0%, #1a1a1a 90.2%); /* Updated purple to black gradient background */
+    color: #ffffff; /* White text color */
+    transition: background-color 0.3s ease;
+}
+
+/* Video Section Styles */
+.video-section {
+    position: relative;
+    width: 100%;
+    height: 95vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the video covers the section without distortion */
+    object-position: bottom; /* Aligns the video to the bottom of the container */
+    z-index: -1;
+}
+
+/* Tool Info Section */
+.tool-info {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    background: url('public/videos/home.mp4') no-repeat center center/cover;
+    background-position: center center; /* Center the image */
+    background-size: cover; /* Ensure the image covers the section */
+    background-attachment: fixed; /* Keeps the background image fixed during scrolling */
+}
+
+.tool-info-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: 600px;
+    padding: 25px 100px;
+    background: rgba(0, 0, 0, 0.449);
+    border-radius: 15px;
+    text-align: center;
+    color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    z-index: 1;
+}
+
+
+/* How to Use Section */
+.how-to-use {
+    padding: 40px 20px;
+    background-color: #1a1a1a; /* Dark background to match theme */
+    color: #ffffff; /* White text color */
+}
+
+.how-to-use .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.how-to-use h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #b700ff; /* Updated purple color */
+}
+
+.how-to-use p {
+    font-size: 1.1rem;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.steps {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.step {
+    display: flex;
+    align-items: start;
+    background: #333333; /* Darker background for steps */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 100%;
+    max-width: 800px;
+    color: #ffffff; /* White text color */
+}
+
+.step:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.icon {
+    font-size: 2rem;
+    color: #b700ff; /* Updated purple color */
+    margin-right: 20px;
+}
+
+.step-info h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.step-info p {
+    font-size: 1rem;
+    margin: 0;
+}
+
+/* Text Input Section */
+.text-input-section {
+    padding: 40px 20px;
+    background-color: #333333; /* Darker background to match theme */
+    color: #ffffff; /* White text color */
+}
+
+.text-input-section .container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.text-input-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #b700ff; /* Updated purple color */
+}
+
+.text-input-section p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+textarea {
+    width: 100%;
+    max-width: 800px;
+    padding: 15px;
+    font-size: 1rem;
+    border: 1px solid #666;
+    border-radius: 5px;
+    background-color: #1a1a1a; /* Dark background to match theme */
+    color: #ffffff; /* White text color */
+    resize: vertical; /* Allow vertical resizing */
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+textarea::placeholder {
+    color: #aaa;
+}
+
+button#process-text {
+    margin-top: 20px;
+    background-color: #b700ff; /* Updated purple background */
+    color: #ffffff; /* White text color */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+button#process-text:hover {
+    background-color: #a600e1; /* Slightly darker purple on hover */
+}
+
+/* FAQ Section */
+.faq-section {
+    padding: 40px 20px;
+    background-color: #1a1a1a; /* Dark background to match theme */
+    color: #ffffff; /* White text color */
+}
+
+.faq-section .container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.faq-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #b700ff; /* Updated purple color */
+    text-align: center;
+}
+
+/* Accordion Styles */
+.accordion-button {
+    background-color: #333333 !important; /* Black background */
+    color: #ffffff !important; /* Purple text color */
+    border: 1px solid #444444 !important; /* Darker border color */
+    box-shadow: none !important; /* Remove shadow */
+    font-size: 1rem !important; /* Adjust font size */
+    padding: 15px !important; /* Increase padding for better spacing */
+    text-align: center; /* Center text */
+    transition: none !important; /* No hover transition */
+    display: flex; /* Use flexbox for alignment */
+    justify-content: center; /* Center the text horizontally */
+    align-items: center; /* Center the text vertically */
+}
+
+.accordion-button:focus {
+    box-shadow: none !important; /* Remove focus shadow */
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #1a1a1a !important; /* Darker background for expanded state */
+    color: #ffffff !important; /* White text color for expanded state */
+}
+
+/* Accordion body styles */
+.accordion-body {
+    background-color: #1a1a1a !important; /* Dark background to match theme */
+    color: #ffffff !important; /* White text color */
+    padding: 10px 20px !important; /* Adjust padding for better spacing */
+    text-align: center; /* Center text */
+    transition: padding-top 0.3s ease; /* Smooth transition for padding */
+}
+
+/* Margin adjustment when accordion item is expanded */
+.accordion-button:not(.collapsed) + .accordion-collapse .accordion-body {
+    padding-top: 5px !important; /* Adjust this value as needed */
+}
+
+/* Ensure no unwanted margins or borders */
+.accordion-item {
+    border: 1px solid #444444 !important; /* Darker border color */
+    margin-bottom: 0 !important; /* Remove bottom margin if necessary */
+    padding: 0 !important; /* Ensure no extra padding */
+    background: transparent !important; /* Ensure background is consistent */
+}
+
+/* Contact Section */
+.contact-section {
+    padding: 60px 20px;
+    background-color: #1a1a1a;
+    color: #ffffff;
+    text-align: center;
+}
+
+.contact-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #b700ff;
+}
+
+.contact-section p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+.contact-section .container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.contact-section .form-group {
+    margin-bottom: 20px;
+}
+
+.contact-section input[type="text"],
+.contact-section input[type="email"],
+.contact-section textarea {
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #666;
+    background-color: #333333;
+    color: #ffffff;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+.contact-section input[type="text"]:focus,
+.contact-section input[type="email"]:focus,
+.contact-section textarea:focus {
+    border-color: #b700ff;
+}
+
+.contact-section button[type="submit"] {
+    background-color: #b700ff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-section button[type="submit"]:hover {
+    background-color: #a600e1;
+}
+
+/* Social Media Icons */
+.contact-section .social-media {
+    margin-top: 40px;
+}
+
+.contact-section .social-icon {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 2rem;
+    color: #b700ff; /* Purple color for icons */
+    transition: color 0.3s ease;
+}
+
+.contact-section .social-icon:hover {
+    color: #ffffff; /* White color on hover */
+}
