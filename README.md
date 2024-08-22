@@ -43,9 +43,15 @@ Resources
 - **Boxicons** [Boxicons](https://boxicons.com/)
 
 Extra Help
-
+- **Visual Studio Code setup for HTML CSS and JavaScript:** [Youtube](https://www.youtube.com/watch?v=fWzp5lZ5CEA)
+- **Learn Bootstrap** [Youtube](https://www.youtube.com/watch?v=eow125xV5-c)
+- **How to Use Boxicons in HTML** [Youtube](https://www.youtube.com/watch?v=fv_ezM1eanw&t=14s)
 
 Image/Video Credits
+- **Icon** [icon.png](https://www.flaticon.com/free-icon/tabs_11516091)
+- **Video by Amit Batra** [home.mp4](https://www.pexels.com/video/time-lapse-footage-of-a-night-sky-4955252/)
+
+
 
   ## Contact Me
 - [💼 LinkedIn](https://www.linkedin.com/in/karanveer-panesar-0203a1247/)
