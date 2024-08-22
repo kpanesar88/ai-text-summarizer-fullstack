@@ -36,10 +36,16 @@ Contributions are welcome! If you have suggestions for improvements or want to c
 
 ## Resources
 
+Resources
 - **Xenova Transformers Library:** [Xenova Transformers](https://cdn.jsdelivr.net/npm/@xenova/transformers@2.17.2)
 - **Visual Studio Code** [Visual Studio Code](https://code.visualstudio.com/)
 - **Bootstrap** [Bootstrap](https://getbootstrap.com/)
 - **Boxicons** [Boxicons](https://boxicons.com/)
+
+Extra Help
+
+
+Image/Video Credits
 
   ## Contact Me
 - [💼 LinkedIn](https://www.linkedin.com/in/karanveer-panesar-0203a1247/)
