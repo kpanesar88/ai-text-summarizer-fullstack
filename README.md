@@ -44,6 +44,6 @@ Contributions are welcome! If you have suggestions for improvements or want to c
   ## Contact Me
 - [💼 LinkedIn](https://www.linkedin.com/in/karanveer-panesar-0203a1247/)
 - [🐱 GitHub](https://github.com/kpanesar88)
-- [📧 Email Me](mailto:karanveerpanesar04@gmail.com)
+- [📧 Email](mailto:karanveerpanesar04@gmail.com)
 - [📸 Instagram](https://www.instagram.com/zorzex?igsh=MWJtdXZ3MTFrZHdpbQ%3D%3D&utm_source=qr)
 
