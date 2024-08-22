@@ -32,7 +32,7 @@ If you find that the summarization process is too slow or if you want to explore
 
 ## Contributing
 
-Contributions are welcome! If you have suggestions for improvements or want to contribute to the project, please submit a pull request.
+Contributions are welcome! If you have suggestions for improvements or want to contribute to the project, please reach out.
 
 ## Resources
 
