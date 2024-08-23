@@ -1,8 +1,8 @@
 /* Navbar container */
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between;  /* Space out elements evenly across the navbar */
+    align-items: center; /* Vertically center items in the navbar */
     background: black; /* Black background */
     color: #b700ff; /* Purple text color */
     backdrop-filter: blur(10px); /* Blur effect */
@@ -19,9 +19,9 @@
 .navbar-title {
     text-decoration: none; /* Remove underline */
     color: #b700ff; /* Purple text color */
-    font-size: 1.5rem;
-    padding-left: 50px;
-    font-weight: bold;
+    font-size: 1.5rem; /* Set the font size to 1.5 rem */
+    padding-left: 50px; /* Add padding to the left */
+    font-weight: bold; /* Make the brand name bold */
     transition: transform 0.3s ease; /* Smooth transition for scaling */
 }
 
@@ -32,35 +32,36 @@
 
 /* Navbar menu */
 .navbar-menu {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    gap: 15px;
+    list-style-type: none; /* Remove default list styling */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    display: flex; /* Use flexbox for menu items */
+    gap: 15px; /* Add spacing between menu items */
     padding-right: 50px; /* Added extra padding to the right */
 }
 
 /* Navbar items */
 .navbar-item {
-    margin: 0;
+    margin: 0; /* Remove default margin */
 }
 
 .navbar-item a {
     text-decoration: none; /* Remove underline */
     color: #b700ff; /* Purple text color */
-    font-weight: 500;
-    padding: 5px 10px;
-    transition: background-color 0.3s ease, color 0.3s ease;
+    font-weight: 500; /* Set font weight to 500 for links */
+    padding: 5px 10px; /* Add padding around links for spacing */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transitions for background color and text color on hover */
+}
 }
 
 /* Navbar link hover effect */
 .navbar-item a:hover {
     background-color: #b700ff; /* Purple background on hover */
     color: #ffffff; /* White text color on hover */
-    border-radius: 5px;
+    border-radius: 5px; /* Round the corners of the background */
 }
 
 /* Quick extract text styling */
 .quick-extract {
-    color: #b700ff; /* Purple color */
+    color: #b700ff; /* Set the color of the quick extract text to purple */
 }
