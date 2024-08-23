@@ -1,3 +1,4 @@
+/* Footer styling */
 footer {
     background-color: #1a1a1a;
     color: #ffffff;
@@ -5,26 +6,31 @@ footer {
     text-align: center;
 }
 
+/* Styling for the bottom section of the footer */
 .footer-bottom {
     border-top: 1px solid #444444;
     padding-top: 20px;
 }
 
+/* Paragraph styling in the footer bottom section */
 .footer-bottom p {
     margin: 0;
     font-size: 1rem;
     margin-bottom: 10px;
 }
 
+/* Styling for contact information in the footer */
 .footer-contact-info p {
     margin: 5px 0;
     font-size: 1rem;
 }
 
+/* Styling for the social media icons section in the footer */
 .footer-social {
     margin-top: 10px;
 }
 
+/* Styling for social media icons */
 .footer-social a {
     font-size: 1.5rem;
     color: #ffffff;
@@ -32,6 +38,7 @@ footer {
     transition: color 0.3s ease;
 }
 
+/* Hover effect for social media icons */
 .footer-social a:hover {
     color: #b700ff;
 }
