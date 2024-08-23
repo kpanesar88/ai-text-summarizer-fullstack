@@ -1,4 +1,4 @@
-# Quick Extract - Text Summarizer
+# Quick Extract - Text Summarizer.
 
 Quick Extract is a web application designed to help users quickly summarize large blocks of text using AI-powered technology. This tool uses the Xenova Transformers library to provide concise and coherent summaries, saving time and improving efficiency.
 
