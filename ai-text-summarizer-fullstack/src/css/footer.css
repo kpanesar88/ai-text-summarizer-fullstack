@@ -1,44 +1,44 @@
 /* Footer styling */
 footer {
-    background-color: #1a1a1a;
-    color: #ffffff;
-    padding: 40px 20px;
-    text-align: center;
+    background-color: #1a1a1a; /* Dark background color for the footer */
+    color: #ffffff; /* White text color for better contrast */
+    padding: 40px 20px; /* Padding around the footer for spacing */
+    text-align: center; /* Center-align text in the footer */
 }
 
 /* Styling for the bottom section of the footer */
 .footer-bottom {
-    border-top: 1px solid #444444;
-    padding-top: 20px;
+    border-top: 1px solid #444444; /* Light gray border on the top of the footer bottom section */
+    padding-top: 20px; /* Padding on top to separate content from the border */
 }
 
 /* Paragraph styling in the footer bottom section */
 .footer-bottom p {
-    margin: 0;
-    font-size: 1rem;
-    margin-bottom: 10px;
+    margin: 0; /* Remove default margin */
+    font-size: 1rem; /* Set font size to 1 rem */
+    margin-bottom: 10px; /* Add some space below the paragraph */
 }
 
 /* Styling for contact information in the footer */
 .footer-contact-info p {
-    margin: 5px 0;
-    font-size: 1rem;
+    margin: 5px 0; /* Small margin on top and bottom for spacing */
+    font-size: 1rem; /* Set font size to 1 rem for consistency */
 }
 
 /* Styling for the social media icons section in the footer */
 .footer-social {
-    margin-top: 10px;
+    margin-top: 10px; /* Margin above the social icons for spacing */
 }
 
 /* Styling for social media icons */
 .footer-social a {
-    font-size: 1.5rem;
-    color: #ffffff;
-    margin: 0 10px;
-    transition: color 0.3s ease;
+    font-size: 1.5rem; /* Increase the size of social media icons */
+    color: #ffffff; /* White color for the icons */
+    margin: 0 10px; /* Horizontal margin between icons */
+    transition: color 0.3s ease; /* Smooth color transition on hover */
 }
 
 /* Hover effect for social media icons */
 .footer-social a:hover {
-    color: #b700ff;
+    color: #b700ff; /* Change icon color to purple on hover */
 }
