@@ -68,7 +68,6 @@ body {
     z-index: 1;
 }
 
-
 /* How to Use Section */
 .how-to-use {
     padding: 40px 20px;
@@ -293,24 +292,17 @@ button#process-text:hover {
     padding: 15px;
     border-radius: 5px;
     border: 1px solid #666;
-    background-color: #333333;
+    background-color: #1a1a1a;
     color: #ffffff;
-    font-size: 1rem;
-    transition: border-color 0.3s ease;
-}
-
-.contact-section input[type="text"]:focus,
-.contact-section input[type="email"]:focus,
-.contact-section textarea:focus {
-    border-color: #b700ff;
+    margin-bottom: 20px;
 }
 
 .contact-section button[type="submit"] {
     background-color: #b700ff;
     color: #ffffff;
     border: none;
-    padding: 10px 20px;
-    font-size: 16px;
+    padding: 15px 30px;
+    font-size: 1rem;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
@@ -318,21 +310,4 @@ button#process-text:hover {
 
 .contact-section button[type="submit"]:hover {
     background-color: #a600e1;
-}
-
-/* Social Media Icons */
-.contact-section .social-media {
-    margin-top: 40px;
-}
-
-.contact-section .social-icon {
-    display: inline-block;
-    margin: 0 10px;
-    font-size: 2rem;
-    color: #b700ff; /* Purple color for icons */
-    transition: color 0.3s ease;
-}
-
-.contact-section .social-icon:hover {
-    color: #ffffff; /* White color on hover */
 }
