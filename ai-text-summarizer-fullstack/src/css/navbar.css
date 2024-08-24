@@ -52,7 +52,7 @@
     padding: 5px 10px; /* Add padding around links for spacing */
     transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transitions for background color and text color on hover */
 }
-}
+
 
 /* Navbar link hover effect */
 .navbar-item a:hover {
